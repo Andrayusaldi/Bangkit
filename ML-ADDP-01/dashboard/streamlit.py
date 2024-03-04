@@ -7,7 +7,7 @@ from babel.numbers import format_currency
 
 sns.set(style='dark')
 
-bike_day = pd.read_csv("day.csv")
+bike_day = pd.read_csv("../ML-ADDP-01/Bike-sharing-dataset/day.csv")
 
 # menambah label pada season
 season_labels = {
